@@ -43,11 +43,6 @@
         <!--<table tableName="%">
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>-->
-
-        <table tableName="t_user" domainObjectName="User">
-            <generatedKey column="id" sqlStatement="postgresql" identity="true"/>
-        </table>
-
         <table tableName="t_test" domainObjectName="Test" enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="SELECT nextval('t_test_id_seq'::regclass)" type="pre"/>
