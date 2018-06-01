@@ -1,0 +1,13 @@
+mybatis:
+  type-aliases-package: com.example.demomybatisgenerator2.entity
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8081
+logging:
+  level:
+    com.example.demo.mybatis: debug
+
